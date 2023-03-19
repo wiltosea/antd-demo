@@ -25,7 +25,13 @@ function App() {
       <div className="App">
         <header className="App-header">
           <Space direction="vertical">
-            <Button type="primary">Button</Button>
+            <Button
+              type="primary"
+              className="button"
+              style={{ color: 'yellow' }}
+            >
+              Button
+            </Button>
             <Input placeholder="Type here..."></Input>
             <Progress percent={50} type="circle" />
             <Spin spinning />
